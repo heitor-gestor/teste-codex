@@ -1,74 +1,13 @@
-diff --git a/style.css b/style.css
-index 2f37f8fc13d8d1bd84fedadab167273fd187f327..195a383e49298745915808794960502dedcfd395 100644
---- a/style.css
-+++ b/style.css
-@@ -58,50 +58,69 @@ header .container {
- .banner h2 {
-   font-size: 36px;
-   margin-bottom: 20px;
- }
- 
- .banner p {
-   font-size: 18px;
-   margin-bottom: 30px;
- }
- 
- .btn {
-   display: inline-block;
-   padding: 12px 25px;
-   background: #fff;
-   color: #00aaff;
-   border-radius: 5px;
-   text-decoration: none;
-   font-weight: bold;
- }
- 
- .btn:hover {
-   background: #00aaff;
-   color: #fff;
- }
- 
-+.btn-whatsapp {
-+  display: inline-block;
-+  padding: 14px 28px;
-+  background-color: #25D366; /* Verde WhatsApp */
-+  color: #fff;
-+  font-size: 16px;
-+  font-weight: bold;
-+  border-radius: 8px;
-+  text-decoration: none;
-+  transition: all 0.3s ease;
-+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-+}
-+
-+.btn-whatsapp:hover {
-+  background-color: #1ebe5d; /* tom mais escuro no hover */
-+  transform: translateY(-3px); /* leve movimento */
-+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
-+}
-+
- /* Seções */
- .section {
-   padding: 60px 20px;
- }
- 
- .container {
-   max-width: 1100px;
-   margin: auto;
- }
- 
- .section h2 {
-   text-align: center;
-   margin-bottom: 20px;
- }
- 
- /* Cards */
- .cards {
-   display: flex;
-   gap: 20px;
-   justify-content: center;
-   flex-wrap: wrap;
- }
- 
- .card {
-   background: #f5f5f5;
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
