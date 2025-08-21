@@ -1,13 +1,13 @@
-body {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #000;
-}
-
-button {
-  padding: 1rem 2rem;
-  font-size: 1rem;
-}
++body {
++  margin: 0;
++  height: 100vh;
++  display: flex;
++  align-items: center;
++  justify-content: center;
++  background: #000;
++}
++
++button {
++  padding: 1rem 2rem;
++  font-size: 1rem;
++}
